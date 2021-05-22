@@ -1,0 +1,312 @@
+
+/*pagina dos produtos*/
+
+body {
+	font-family: 'Handlee', cursive;
+
+}
+
+header {
+	background: #eead2d;
+	padding: 2em 0 2em 0;
+}
+
+.enquadrar {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.imagem1 {
+	width: 25%;
+}
+
+nav ul {
+	position: absolute;
+	top: 100px;
+	right: 0;
+
+}
+
+.enquadrar li {
+	margin: 0 0 0 1em;
+	display: inline-block;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.enquadrar a {
+	color: #6B4226;
+	text-decoration: none;
+
+}
+
+.enquadrar a:hover {
+	color: #ffffff;
+
+}
+
+.principal {
+	position: relative;
+	width: 940px;
+	padding: 5em 0;
+	margin: 0 auto;
+}
+
+.lista_produtos li {
+	text-align: center;
+	display: inline-block;
+	width: 30%;
+	margin: 0 1.5%;
+	border: 2px solid #000000;
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding: 0 1em; 
+
+}
+
+.lista_produtos li:hover {
+	border-color: #eead2d;
+	transform: scale(1.1);
+
+}
+
+.lista_produtos li:active {
+	border-color: #00ff00;
+}
+
+.rotulo {
+	font-size: 1.5em;
+	padding: 1.5em 0 1.3em 0;
+}
+
+.lista_produtos img {
+	width: 85%;
+	padding-bottom: 1.3em;
+
+}
+
+.descricao {
+	font-size: 1.3em;
+	padding-bottom: 1.3em;
+
+}
+
+.valor {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 1.5em;
+
+}
+
+footer {
+	color: #ffffff;
+	background: url(bg.jpg);
+	padding: 5em 0;
+	text-align: center;
+
+}
+
+.imagem_rodape {
+	width: 10%;
+	padding-bottom: 2em;
+
+} 
+
+/*css da pagina do formulario*/
+
+.conteudo-formulario {
+	width: 940px;
+	margin: 0 auto;
+
+}
+
+form {
+	margin: 70px 0;
+
+}
+
+form label {
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.input_padrao {
+	display: block;
+	width: 50%;
+	padding: 10px 20px;
+	margin-bottom: 40px;
+
+}
+
+.texto_formulario {
+	width: 40%;
+	height: 150px;
+	margin: 0 0 40px 0;
+	padding: 20px;
+
+}
+
+fieldset {
+	margin-bottom: 40px;
+}
+
+fieldset legend {
+	font-size: 20px;
+	margin-bottom: 10px;
+
+}
+
+.check {
+	margin-bottom: 15px;
+}
+
+
+.envio {
+	width: 40%;
+	font-size: 15px;
+	font-weight: bold;
+	background: orange;
+	border: none;
+	padding: 15px;
+	color: white;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: all 1s;
+}
+
+.envio:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+/*css da pagina principal*/
+
+.conteudo-principal {
+	background: #fefefe;
+}
+
+.conteudo-principal div {
+	width: 940px;
+	margin: 0 auto;
+
+}
+
+.imagem-principal {
+	width: 45%;
+	opacity: 0.853;
+	margin: 0 5% 0 0;
+	vertical-align: top;
+	transition: 500ms;
+	float: left;
+	box-shadow: 5px 5px 10px 0 #000000;
+
+}
+
+.imagem-principal:hover {
+	opacity: 0.3;
+
+}
+
+.conteudo-principal h1 {
+	margin: 1.5em 0;
+	font-size: 2em;
+	font-weight: bold;
+	display: inline-block;
+	width: 50%;
+}
+
+.conteudo-principal ul {
+	line-height: 2.5;
+	font-size: 1.2em;
+	display: inline-block;
+	width: 50%;
+
+}
+
+.conteudo-principal li:before {
+	content: "➢";
+}
+
+.conteudo-secundario {
+	background: linear-gradient(#fefefe, #eead2d);
+	padding: 5em 0 0 0;
+	clear: left;
+}
+
+.conteudo-secundario h2 {
+	text-align: center;
+	font-size: 2em;
+	padding: 1em 0;
+
+}
+
+.conteudo-secundario div {
+	width: 640px;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+.conteudo-secundario p {
+	line-height: 2em;
+	font-size: 1.3em;
+
+}
+
+.conteudo-terciario {
+	padding: 5em 0 0 0;
+	background: #eead2d;
+}
+
+.conteudo-terciario div {
+	width: 940px;
+	margin: 0 auto;
+
+}
+
+.conteudo-terciario h3 {
+	text-align: center;
+	font-size: 2em;
+	padding: 1em 0;
+
+}
+
+.conteudo-quaternario {
+	background: #eead2d;
+	padding: 4em;
+
+}
+
+.conteudo-quaternario h4 {
+	text-align: center;
+	font-size: 2em;
+	padding: 1em 0;
+
+}
+
+.video {
+	width: 45%;
+	display: inline-block;
+	margin:  0 2.5%; 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
